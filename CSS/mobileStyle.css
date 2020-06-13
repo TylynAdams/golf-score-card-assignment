@@ -1,0 +1,50 @@
+@media only screen and (max-width: 750px) {
+    .menuContainer, .setupContainer, .gameContainer {
+        width: 80%;
+    }
+
+    .gameContainer {
+        display: none;
+        flex-direction: row;
+    }
+
+    .holeContainer, .yardContainer, .parContainer, .hcpContainer, .playerContainer {
+        margin-right: 5px;
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        width: 10%;
+        border: 1px solid #254535;
+        border-radius: 4px;
+        font-size: 12px;
+    }
+
+    .holeContainer {
+        margin-left: 5px;
+    }
+
+    .in, .out, .total, .hole, .yard, .par, .hcp, .score {
+        width: 100%;
+        height: 8%;
+    }
+
+    .score {
+        padding: 1.5px 0;
+    }
+
+    .in, .out, .hole, .yard, .par, .hcp, .score{
+        border-bottom: 1px solid #254535;
+        border-left: none;
+    }
+
+    .total {
+        border-left: none;
+    }
+
+    .cardTitle {
+        overflow: hidden;
+        border-bottom: 1px solid #254535;
+        width: 100%;
+        height: 10%;
+    }
+}
