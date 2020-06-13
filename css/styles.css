@@ -1,7 +1,29 @@
+/* 
+#sorecard {
+    display: flex;
+    margin: 0;
+} */
 .thumbnail {
-    width: 200px;
+    width: 350px;
   }
   
-  .flex {
+  /* .flex {
     display: flex;
+    padding-left: 10%;
+  } */
+
+  .flex {
+      display:flex;
+      background-color: aquamarine;
+
+  }
+ 
+  .begin {
+      display: flexbox;
+      margin: 0px;
+      width: 10%;
+      height: 35%;
+      background-color: blueviolet;
+     
+     
   }

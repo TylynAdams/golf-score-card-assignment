@@ -4,6 +4,9 @@
 
 // fetch()
 
+function createTable(){
+
+}
 function getCourses() {
     fetch('https://golf-courses-api.herokuapp.com/courses').then((response) => {
       response.json().then((data) => {
@@ -49,4 +52,4 @@ function getCourses() {
   }
   
   getCourses();
-  
+
